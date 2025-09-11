@@ -1,0 +1,6 @@
+﻿namespace Uno;
+
+class Player
+{
+	
+}
