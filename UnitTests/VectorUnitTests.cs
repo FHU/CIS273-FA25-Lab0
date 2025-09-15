@@ -38,6 +38,9 @@ namespace UnitTests
             Vector.Vector v2 = new Vector.Vector() { X = -4.0, Y = -4.0 };
             Vector.Vector result = new Vector.Vector() { X = 0, Y = 0 };
             Assert.AreEqual(result, v1.Add(v2));
+
+            Vector.Vector result2 = new Vector.Vector() { X = 8, Y = 8 };
+            Assert.AreEqual(result2, v1.Add(v1));
         }
 
         [TestMethod]
