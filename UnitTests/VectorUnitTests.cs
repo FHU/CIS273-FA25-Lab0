@@ -5,6 +5,7 @@ using Vector;
 namespace UnitTests
 {
     [TestClass]
+    [TestCategory("Vector")]
     public class VectorUnitTests
     {
         [TestMethod]

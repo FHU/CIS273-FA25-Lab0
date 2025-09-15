@@ -4,6 +4,7 @@ using Uno;
 namespace UnitTests
 {
     [TestClass]
+    [TestCategory("Uno")]
     public class UnoUnitTests
     {
         [TestMethod]
@@ -181,7 +182,7 @@ namespace UnitTests
         [TestMethod]
         public void TestPlayerGetFirstPlayableCard()
         {
-            var red5 = new Card() { Color = Color.Red, Number = 5 , Type=CardType.Number};
+            var red5 = new Card() { Color = Color.Red, Number = 5, Type = CardType.Number };
             var red9 = new Card() { Color = Color.Red, Number = 9, Type = CardType.Number };
             var blue9 = new Card() { Color = Color.Blue, Number = 9, Type = CardType.Number };
             var yellow2 = new Card() { Color = Color.Yellow, Number = 2, Type = CardType.Number };
