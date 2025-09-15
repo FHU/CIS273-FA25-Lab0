@@ -10,11 +10,17 @@ public enum Color
     Red, Yellow, Blue, Green, Wild
 }
 
-public class Card 
+public class Card
 {
     public CardType Type { get; set; }
     public Color Color { get; set; }
     public int? Number { get; set; }
+
+    public static bool PlaysOn(Card card1, Card card2)
+    {
+        return true;
+    }
+
 
     public override string ToString()
     {
