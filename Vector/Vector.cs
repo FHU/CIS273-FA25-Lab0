@@ -29,6 +29,21 @@ public struct Vector
         return 0.0;
     }
 
+    public Vector Multiply(double scalar)
+    {
+        return default;
+    }
+
+    public Vector Divide(double scalar)
+    {
+        return default;
+    }
+
+    public Vector Normalize()
+    {
+        return default;
+    }
+
     // Class (static) methods 
     public static Vector Add(Vector v1, Vector v2)
     {
@@ -50,6 +65,21 @@ public struct Vector
         return default;
     }
 
+     public static Vector Multiply(Vector v, double scalar)
+    {
+        return default;
+    }
+
+    public static Vector Divide(Vector v, double scalar)
+    {
+        return default;
+    }
+
+    public static Vector Normalize(Vector v)
+    {
+        return default;
+    }
+
     // Overloaded operators 
     public static Vector operator +(Vector v1, Vector v2)
     {
@@ -64,6 +94,16 @@ public struct Vector
     public static double operator *(Vector v1, Vector v2)
     {
         return 0.0;
+    }
+
+    public static Vector operator *(Vector v1, double scalar)
+    {
+        return default;
+    }
+
+     public static Vector operator /(Vector v1, double scalar)
+    {
+        return default;
     }
 
 
